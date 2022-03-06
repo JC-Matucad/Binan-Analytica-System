@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    height: 100%;
+    background-color: #f1f7fb;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px ;
+    background-color: #fff;
+    color:#1B85A6;
+    font-weight: 400;
+}
+.collapse {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    visibility: hidden;
+}
+.collapse p {
+    font-size: 32px;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+}
+.year select {
+    font-size: 16px;
+    color:#1B85A6;
+    padding: 5px 40px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #1B85A6;
+}
+.main {
+    min-height: 100vh;
+    background-color: #f1f7fb;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    background-color: #fff;
+    min-height: 100%;
+    width: 210px;
+    color: yellow;
+}
+.sidebar > div {
+    font-size: 20px;
+}
+.population {
+    margin-top: 20px;
+
+}
+.sidebar a {
+    padding: 0 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.active a {
+    color: #fff;
+}
+.active {
+    background-color: #1b85a6;
+}
+.container {
+    margin: 0 20px;
+    margin-top: 20px;
+    width:100%;
+}
+
+.container a {
+    color:#000;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mb {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.card-1 {
+    flex:0 0 100%;
+}
+.card-1-4 {
+    flex: 0 0 25%;
+}
+.height-100 {
+    height: 100%;
+}
+.card {
+    border-radius: 20px;
+    background-color: #fff;
+    color:#000;
+    padding: 40px 40px;
+    box-shadow: 4px 4px 30px 0px rgb(75 102 171 / 20%);
+}
+.card h2 {
+    font-size: 40px;
+}
+.card h3 {
+    font-size: 24px;
+}
+.view-more {
+    margin-top: 30px;
+    position: relative;
+    left: 55%;
+    max-width: 50%;
+    cursor: pointer;
+    text-align: center;
+    opacity: 70%;
+}
+.card p {
+    font-weight: 400;
+}
+
+.graph {
+    height: 400px;
+    max-height: 400px;
+}
+.graph1 canvas {
+    max-height: 500px!important;
+    max-width: 100%!important;
+}
+.graph2 canvas {
+    max-height: 500px!important;
+    max-width: 100%!important;
+}
+
+
+.card-3 .card h3 {
+    text-align: center;
+}
+
+.card-4 .card h3 {
+    text-align: center;
+}
+.graph-1 {
+    padding: 40px;
+}
+.row .card-1-1 {
+    width: 25%;
+}
+
+.menu {
+    background-color: rgba(0,0,0,0.4);;
+    min-height: 120vh;
+    z-index: 1;
+    position: absolute;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.menu a {
+    color: #000;
+}
+.menu-items {
+    min-height: 120vh;
+    width: 50%;
+    background-color: #fff;
+}
+.menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 40px;
+}
+.menu-logo h3 {
+    font-size: 20px;
+    color: #1B85A6;
+}
+.myBtn {
+    width: 50px;
+    border: none;
+    background-color: #fff;
+    font-weight: 900;
+}
+.close {
+    color: #aaaaaa;
+    font-weight: bold;
+    font-size: 24px;
+  }
+.close:hover {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+.menu-channel {
+    font-size: 20px;
+}
+.menu-channel > div a {
+    padding: 0 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    
+}
+.myBtn:hover {
+    cursor: pointer;
+}
+.card-3 {
+    flex: 0 0 50%;
+}
+.card-4 {
+    flex: 0 0 50%;
+}
+.arrow {
+    color: #16c784;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.card h2 {
+    display: flex;
+    align-items: center;
+}
+.card h2 span {
+    font-size: 25px;
+    color: #16c784;
+    margin-left: 5px;
+}
+
+.arrow {
+    color: #16c784;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.card h2 {
+    display: flex;
+    align-items: center;
+}
+.card h2 span {
+    font-size: 25px;
+    color: #16c784;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:1080px) {
+    .c1 {
+        flex: 0 0 50%!important;
+    }
+    .c2 {
+        flex: 0 0 50%!important;
+    }
+    .c3 { 
+        flex: 0 0 50%;
+    }
+    .c4 {
+        flex: 0 0 50%;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .c1 {
+        flex: 0 0 100%!important;
+    }
+    .c2 {
+        flex: 0 0 100%!important;
+    }
+    .c3 { 
+        flex: 0 0 100%;
+    }
+    .c4 {
+        flex: 0 0 100%;
+    }
+    .c5 {
+        flex: 0 0 100%;
+    }
+    .c6 {
+        flex: 0 0 100%;
+    }
+    .sidebar {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .collapse {
+        visibility: visible;
+    
+    }
+}
